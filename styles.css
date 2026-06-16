@@ -1,0 +1,206 @@
+body{
+    background-color:lightsalmon;
+}
+
+
+
+.desktop-parent{
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    margin:4rem auto;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.memory{
+    max-width: 300px;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.perfume-child{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 1rem;
+    margin-top: 1.6rem;
+    
+    
+}
+
+.pef1{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 1rem;
+    color: gray;
+}
+.pef2{
+    font-family: serif;
+    font-weight: bold;
+    width: 100%;
+    max-width: 170px;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.pef3{
+    width: 100%;
+    max-width: 220px;
+    font-size: 1rem;
+    color:gray;
+    margin-bottom: 1rem;
+}
+.pef4{
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: serif;
+    color: lightgreen;
+}
+.card{
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 7px;
+    margin-left: 1rem;
+    text-decoration: line-through;
+    color: gray;
+    width: 100%;
+    max-width: 170px;
+}
+
+.btn-desktop button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    width: 100%;
+    max-width: 220px;
+    padding: 0.9rem 1rem;
+
+    background-color: green;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+}
+
+/*mobile page*/
+.desktop-parent1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 6rem auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.memory-2{
+    width: 100%;
+    max-width: 400px;
+}
+.perfume-child-2{
+    display: flex;
+    flex-direction: column;
+}
+.pef-sub1{
+    font-size: 2rem;
+    font-weight: bolder;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    
+}
+.pef-sub0{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 1rem;
+    color: gray;
+
+    padding-top: 2rem;
+}
+.pef-sub2{
+    font-size: 1.1rem;
+    font-family: serif;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 350px;
+}
+.pef-sub3{
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: serif;
+    color: green;
+    font-weight: bolder;
+}
+.pef-sub4{
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 7px;
+    margin-left: 1rem;
+    text-decoration: line-through;
+    color: gray;
+    width: 100%;
+    max-width: 170px;
+}
+.dollar{
+    margin-top: 1rem;
+}
+.btn-perfume-21 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem 8rem;
+
+    background-color: green;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+
+}
+
+/* default = desktop */
+.desktop-parent{
+    display: flex;
+}
+
+.desktop-parent1{
+    display: none;
+}
+
+
+/* mobile */
+@media (max-width: 768px){
+
+    .desktop-parent{
+        display: none;
+    }
+
+    .desktop-parent1{
+        display: flex;
+    }
+
+}
